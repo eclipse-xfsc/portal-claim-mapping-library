@@ -6,7 +6,7 @@ on:
   push:
 
 jobs:
-  call-remote-dash-workflow:
+  maven-build:
     uses: eclipse-xfsc/dev-ops/.github/workflows/maven-build.yml@main
     with:
       java_version: '18'
