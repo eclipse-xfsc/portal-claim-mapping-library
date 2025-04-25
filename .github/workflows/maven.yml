@@ -10,3 +10,4 @@ jobs:
     uses: eclipse-xfsc/dev-ops/.github/workflows/maven-build.yml@main
     with:
       java_version: '18'
+      deploy_mode: 'jar'
