@@ -10,3 +10,5 @@ on:
 jobs:
   call-remote-dash-workflow:
     uses: eclipse-xfsc/dev-ops/.github/workflows/eclipse-dash-licence-maven.yml@main
+    with: 
+      java_version: '18'
