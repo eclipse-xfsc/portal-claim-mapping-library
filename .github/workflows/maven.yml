@@ -2,10 +2,8 @@ name: Maven Build & Test
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 1 * *'
-  release:
-    types: [published]
+  pull_request:
+  push:
 
 jobs:
   call-remote-dash-workflow:
